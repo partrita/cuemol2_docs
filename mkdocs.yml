@@ -37,6 +37,22 @@ plugins:
             #  - Donation: Licence.md
             - Link: Link.md
             - CueMol3 docs: https://cuemol.github.io/cuemol3_docs/en/
+
+        - locale: ko
+          name: 한국어
+          build: true
+          nav:
+            - 홈: index.md
+            - 문서: Documents.md
+            - 갤러리: Gallery.md
+            - 업데이트: Updates.md
+            - 실행 환경: Environment.md
+            - 다운로드: Download.md
+            - 설치: Install.md
+            - 라이선스: Licence.md
+            #  - 후원: Licence.md
+            - 링크: Link.md
+            - CueMol3 문서: https://cuemol.github.io/cuemol3_docs/en/
             
 markdown_extensions:
   - admonition
@@ -57,6 +73,9 @@ extra:
     - name: English
       link: en/
       lang: en
+    - name: 한국어
+      link: ko/
+      lang: ko
 
 nav:
   - トップページ: index.md
